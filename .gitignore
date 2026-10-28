@@ -1,0 +1,46 @@
+# Local configuration and credentials
+.env
+**/.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime data: uploaded audio, generated output, databases, and model weights
+backend/uploads/
+backend/outputs/
+backend/models/
+backend/*.db
+backend/*.db-*
+backend/*.sqlite*
+*.sqlite
+*.sqlite3
+*.mp3
+*.wav
+*.m4a
+*.flac
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local tooling output
+runlogs/
+.run/
+.netlify/
+.vercel/
+*.log
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
