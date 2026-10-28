@@ -10,7 +10,6 @@ faster-whisper==1.2.1
 # faster-whisper 1.2.1 passes metadata_errors to av.open; PyAV 19 removed it.
 av>=11,<19
 torch==2.14.1
-torchaudio==2.14.1
 bertopic==0.16.4
 sentence-transformers==3.4.1
 transformers==4.48.0
